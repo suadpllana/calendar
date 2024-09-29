@@ -10,18 +10,20 @@ const Calendar = () => {
         const date = new Date()
         const number = date.getDate()
         const month = date.getMonth()
-        const day = (date.getDay() - 1)
+        const day = (date.getDay())
         const year = date.getFullYear()
+
+        console.log(day)
  
 
   return (
     <div>
-       <div class="calendar">
-        <div class="left">
-            <p id="date" class="bold">{number}</p>
+       <div className="calendar">
+        <div className="left">
+            <p id="date" className="bold">{number}</p>
             <p id="month">{monthsOfYear[month]}</p>
         </div>
-        <div class="right">
+        <div className="right">
            
             <p id="day">{dayOfWeek[day]}</p>
             <p id="year">{year}</p>
