@@ -2,7 +2,7 @@ import React from 'react'
 import {useState} from "react"
 const Calendar = () => {
 
-    const dayOfWeek = ["Monday" , "Tuesday" , "Wednesday", "Thursday" , "Friday" , "Saturday" , "Sunday"]
+    const dayOfWeek = ["Sunday" , "Monday" , "Tuesday" , "Wednesday", "Thursday" , "Friday" , "Saturday"]
     const monthsOfYear = ["January","February", "March", "April", "May","June" ,"July", "August", "September",
             "October", "November", "December"
     ]
