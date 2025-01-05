@@ -35,6 +35,9 @@ p{
 }
 
 @media (max-width: 767px){
+  .time{
+    margin-top: 15rem;
+  }
   .calendar{
    margin-left: 0;
     width: 100%;
