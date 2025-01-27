@@ -46,7 +46,7 @@ const Calendar = () => {
         </div>
         <div className="right">
            
-            <p id="day">Wednesday</p>
+            <p id="day">{dayOfWeek[day]}</p>
             <p id="year">{year}</p>
         </div>
     </div>
