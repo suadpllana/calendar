@@ -25,6 +25,8 @@ color: black;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   height: 100%;
+  min-width: 14rem;
+  height: auto;
 }
 p{
   font-size: 40px;
